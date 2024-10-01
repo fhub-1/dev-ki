@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import authorImage from "../public/images/authors/joseph.jpg"
-
+ 
 export default function Intro() {
   return (
     <section className='flex flex-col-reverse items-start gap-x-10 gap-y-4 pb-24 md:flex-row md:items-center'>
@@ -16,7 +15,7 @@ export default function Intro() {
       <div className='relative'>
         <Image
           className='flex-1 rounded-lg grayscale'
-          src={authorImage}
+          src="/images/authors/joseph.jpg"
           alt='Joseph Kitheka'
           width={175}
           height={175}
